@@ -41,6 +41,26 @@ body {
 }
 /*==============STUDIO STYLES===========*/
 /*HEADER*/
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
+.contact {
+  display: flex;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -48,9 +68,14 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accnet-color);
+  margin-right: 93px;
 }
+
 .logo-color {
   color: #000000;
+}
+.menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 .menu-link {
   font-weight: 500;
@@ -73,9 +98,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accnet-color);
+}
+.contact-item:not(:first-child) {
+  margin-left: 50px;
 }
 /*END HEADER*/
 
