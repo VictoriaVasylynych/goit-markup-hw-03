@@ -324,6 +324,7 @@ body {
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--accnet-color);
+  color: #ffffff;
 }
 .filter-button.current {
   background-color: var(--accnet-color);
